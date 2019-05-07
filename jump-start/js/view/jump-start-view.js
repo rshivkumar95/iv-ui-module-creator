@@ -6,7 +6,7 @@ define(function (require) {
     var _ = require('ivUnderscore'),
         $ = require('jquery'),
         iv = require('sdk!ivCore'),
-        JumpStartTemplate = _.template(require('text!./../../template/jump-start-template.html')),
+        JumpStartTemplate = _.template(require('text!./../../template/jump-start-template.html'));
 
         var JumpStartView = iv.View.extend({
             state: {
