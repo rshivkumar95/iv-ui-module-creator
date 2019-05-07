@@ -6,7 +6,7 @@ define(function (require) {
     var _ = require('ivUnderscore'),
         $ = require('jquery'),
         iv = require('sdk!ivCore'),
-        ModuleTemplateTemplate = _.template(require('text!./../../template/module-template-template.html')),
+        ModuleTemplateTemplate = _.template(require('text!./../../template/module-template-template.html'));
 
         var ModuleTemplateView = iv.View.extend({
             state: {
