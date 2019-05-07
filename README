@@ -1,0 +1,20 @@
+IV UI Module Creator
+=========
+
+A small library that creates UI module structure with all files
+
+## Installation
+
+  `npm install @rshivkumar/iv-ui-module-creator`
+
+## Usage
+
+
+
+
+## Tests
+
+  `npm test`
+
+## Contributing
+

@@ -1,0 +1,31 @@
+{
+  "name": "iv-ui-module-creator",
+  "version": "1.0.2",
+  "description": "This will create iv UI module folder structure",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "node_modules/.bin/babel src/index.js --out-file lib/index.js --ignore 'src/**/' && cp -r src/template lib/template",
+    "create-module": "node lib/index.js",
+    "create-module-dev": "node src/index.js"
+  },
+  "babel": {
+    "presets": [
+      "minify"
+    ]
+  },
+  "bin": {
+    "generate-module": "lib/index.js"
+  },
+  "preferGlobal": true,
+  "author": "Shivkumar Rathod <rshivkumar95@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
