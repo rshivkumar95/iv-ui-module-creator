@@ -5,12 +5,11 @@ A small library that creates UI module structure with all files
 
 ## Installation
 
-  `npm install @rshivkumar/iv-ui-module-creator`
+  `npm install -g iv-ui-module-creator`
 
 ## Usage
 
-
-
+  `generate-module [module-name]`
 
 ## Tests
 

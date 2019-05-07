@@ -27,5 +27,9 @@
     "babel-preset-minify": "^0.5.0",
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rshivkumar95/iv-ui-module-creator.git"
+  },
 }
